@@ -12,13 +12,15 @@ import { AppComponent } from './app.component';
 import { AddVendorComponent } from './components/add-vendor/add-vendor.component';
 import { VendorDetailsComponent } from './components/vendor-details/vendor-details.component';
 import { VendorListComponent } from './components/vendor-list/vendor-list.component';
+import { VendorPublishedComponent } from './components/vendor-published/vendor-published.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddVendorComponent,
     VendorDetailsComponent,
-    VendorListComponent
+    VendorListComponent,
+    VendorPublishedComponent
   ],
   imports: [
     BrowserModule,
